@@ -1,0 +1,82 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture {
+    max-width: 100%;
+    display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* Body text */
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400; /* normal weight for paragraphs */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400; /* normal weight for headings */
+}
+
+/* navbar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 38px;
+    margin: 0px auto;
+    margin-top: 32px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    width: 28px;
+    height: 17px;
+}
+
+/* hero section styling */
+
+.hero-image {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+     border: 1px solid black;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    letter-spacing: -0.25px;
+    color: #36536B;
+    line-height: 36px;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
