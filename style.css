@@ -69,6 +69,8 @@ nav {
     margin: 0 auto;
     width: 90%;
      border: 1px solid black;
+     position: relative;
+     top: -48px;
 }
 
 .hero-content h1 {
@@ -78,5 +80,4 @@ nav {
     line-height: 36px;
     width: 70%;
     margin: 0 auto;
-    border: 1px solid black;
 }
