@@ -9,10 +9,6 @@ html, body {
     height: 100%;
 }
 
-body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-}
 
 img, picture {
     max-width: 100%;
@@ -30,6 +26,8 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Body text */
 body {
   font-family: 'Public Sans', sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
   font-weight: 400; /* normal weight for paragraphs */
 }
 
@@ -105,7 +103,6 @@ nav {
 
 .email-input::placeholder {
     color: #36536B;
-    font-size: 15px;
     opacity: 50%;
     font-weight: bold;
     width: 153px;
@@ -142,4 +139,55 @@ nav {
 .hero-content  span {
     font-weight: bold;
     cursor: pointer;
+}
+
+/* partners section styling */
+.partners {
+    border: 1px solid black;
+    padding: 80px 24px;
+    background-color: #1B262F;
+    color: #FBFCFE;
+}
+.partners-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: space-between;
+   gap: 40px 50px;
+   width: 327px;
+   margin: 0 auto;
+}
+
+
+.partners h2 {
+    line-height: 36px;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+
+.partners p {
+    text-align: center;
+    opacity: 70%;
+    font-size: 15px;
+    width: 327px;
+    margin: 0 auto;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.partners button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    background-color: transparent;
+    color: #FBFCFE;
+    padding: 16px 32px 14px 32px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: -0.12x;
+    border: 1px solid #FBFCFE;
 }
