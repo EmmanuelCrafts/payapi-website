@@ -39,6 +39,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; /* normal weight for headings */
 }
 
+header {
+    background: url(assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position: -204px -550px;
+    background-size: 780px 780px;
+    padding-bottom: 32px;
+}
 /* navbar styling */
 nav {
     display: flex;
@@ -47,7 +54,7 @@ nav {
     width: 90%;
     height: 38px;
     margin: 0px auto;
-    margin-top: 32px;
+    padding-top: 32px;
 }
 
 .menu-icon {
@@ -68,7 +75,6 @@ nav {
     text-align: center;
     margin: 0 auto;
     width: 90%;
-     border: 1px solid black;
      position: relative;
      top: -48px;
 }
@@ -78,6 +84,62 @@ nav {
     letter-spacing: -0.25px;
     color: #36536B;
     line-height: 36px;
-    width: 70%;
+    width: 327px;
     margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+
+
+.email-input {
+    background-color: #FBFCFE;
+    width: 327px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border-radius: 24px;
+    padding-left: 27px;
+    padding-right: 157px;
+    padding: 16px 157px 14px 27px;
+}
+
+.email-input::placeholder {
+    color: #36536B;
+    font-size: 15px;
+    opacity: 50%;
+    font-weight: bold;
+    width: 153px;
+}
+
+.demo-btn {
+    background-color: #BA4270;
+    color: #FBFCFE;
+    border: none;
+    width: 327px;
+    border-radius: 24px;
+    padding: 16px 48px 14px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.demo-btn:hover {
+    background-color: #da6d97;
+    
+}
+
+/* use js to disable the buttton if input is empty */
+.demo-btn:disabled {
+    opacity: 50%;
+    background-color: #BA4270;
+    cursor: not-allowed;
+}
+.hero-content p {
+    font-size: 15px;
+    color: #6C8294;
+}
+
+.hero-content  span {
+    font-weight: bold;
+    cursor: pointer;
 }

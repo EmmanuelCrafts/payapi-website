@@ -11,16 +11,18 @@
 <body>
     <header>
         <nav>
-            <img src="assets/shared/desktop/logo.svg" alt="Logo">
+            <img src="assets/shared/desktop/logo.svg" alt="Logo" class="logo">
             <img src="assets/shared/mobile/menu.svg" alt="Menu icon" class="menu-icon">
         </nav>
         <section class="hero">
              <img src="assets/home/desktop/illustration-phone-mockup.svg" alt="a phone mockup with a payment app notification on the screen" class="hero-image">
              <div class="hero-content">
                 <h1> Start building with our APIs for absolutely free.</h1>
-                <button>Enter Email address</button>
-                <button>Schedule a Demo</button>
-                <p>Have any question? <span>Contact US</span></p>
+                <form action="">
+                    <input type="email" placeholder="Enter email address" required class="email-input">
+                    <button class="demo-btn">Schedule a Demo</button>
+                </form>
+                <p>Have any question? <span>Contact Us</span></p>
              </div>
         </section>
     </header>
