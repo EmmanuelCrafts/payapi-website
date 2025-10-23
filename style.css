@@ -191,3 +191,15 @@ nav {
     letter-spacing: -0.12x;
     border: 1px solid #FBFCFE;
 }
+
+.partners button:hover {
+    background-color: #FBFCFE;
+    color: #1B262F;
+}
+
+/* about buton disabled */
+.partners button:disabled {
+    opacity: 50%;
+    background-color: transparent;
+    cursor: not-allowed;
+}
