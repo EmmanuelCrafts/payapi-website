@@ -254,3 +254,41 @@ nav {
     color: #6C8294;
     margin-top: 24px;
 }   
+
+/* offers section */
+.offers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    row-gap: 48px;
+}
+
+.offers-cards {
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.offers-cards h3 {
+    font-size: 18px;
+    font-family: "public sans", sans-serif;
+    color: #36536B;
+    margin-top: 33px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: -0.14px;
+}
+
+.offers-cards p {
+    font-size: 15px;
+    color: #6C8294;
+    margin-top: 16px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+}
