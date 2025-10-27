@@ -34,6 +34,7 @@ h2 ,h1 {
 body {
   font-family: 'Public Sans', sans-serif;
   font-size: 15px;
+  background-color: #edf3f8;
   -webkit-font-smoothing: antialiased;
   font-weight: 400; /* normal weight for paragraphs */
 }
@@ -101,9 +102,7 @@ nav {
     margin-bottom: 16px;
     border-radius: 24px;
     border: none;
-    box-shadow: 
-                -10px -10px 25px -10px #00000080,
-                 10px 10px 25px -10px #36536B40;
+    box-shadow: 0px 4px 4px 0px #00000040;
     padding: 16px 157px 14px 27px;
 }
 
@@ -293,4 +292,14 @@ nav {
     margin-top: 16px;
     line-height: 25px;
     letter-spacing: -0.12px;
+}
+
+/* start section */
+.start-container {
+    margin: 0 auto;
+    width: 328px;
+    margin-top: 80px;
+}
+.start-container h2 {
+    margin-bottom: 32px;
 }
