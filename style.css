@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 html, body {
-    height: 100%;
+    height: 100dvh;
 }
 
 
@@ -74,7 +78,6 @@ header {
 .hero-image {
     margin: 0 auto;
     position: relative;
-    left: 30px;
     top: 8px;
 }
 
@@ -239,10 +242,6 @@ header {
 }
 
 /* simple UI & UX section styling */
-.ui-image {
-    position: relative;
-    left: 15px;
-}   
 
 
 .ui-content p {
@@ -308,10 +307,12 @@ header {
 footer {
     background-color: #1B262F;
     color: #ffffff;
-    height: 353px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 55px;
     align-items: center;
+    min-height: 50dvh;
+    
 }
 
 footer svg {
