@@ -150,7 +150,22 @@ header {
     padding: 80px 24px;
     background-color: #1B262F;
     color: #FBFCFE;
+    position: relative;
+    overflow: hidden;
 }
+
+.partners-mask {
+    position: absolute;
+    top: -602px;
+    left: -202px;
+    width: 780px;
+    height: 780px;
+    background-image: url(assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+
 .partners-logos {
     display: grid;
     justify-items: center;
