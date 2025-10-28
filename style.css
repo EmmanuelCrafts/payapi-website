@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 html, body {
     height: 100dvh;
 }
@@ -311,8 +307,9 @@ footer {
     flex-direction: column;
     padding-bottom: 55px;
     align-items: center;
-    min-height: 50dvh;
-    
+    min-height: 45dvh;
+    position: relative;
+    overflow: hidden;
 }
 
 footer svg {
@@ -343,4 +340,15 @@ footer ul li {
     display: flex;
     gap: 24px;
     margin-top: 40px;
+}
+
+.footer-mask {
+    position: absolute;
+    top: 177px;
+    width: 780px;
+    height: 780px;
+    background-image: url(assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
 }
