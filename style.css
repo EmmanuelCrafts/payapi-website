@@ -46,11 +46,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background: url(assets/shared/desktop/bg-pattern-circle.svg);
-    background-repeat: no-repeat;
-    background-position: -204px -550px;
-    background-size: 780px 780px;
+    position: relative;
     padding-bottom: 32px;
+    overflow: hidden;
+}
+
+.header-mask {
+    position: absolute;
+    top: -550px;
+    left: -204px;
+    width: 780px;
+    height: 780px;
+    background-image: url(assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
 }
 /* navbar styling */
 .header-nav {
