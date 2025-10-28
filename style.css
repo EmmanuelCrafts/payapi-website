@@ -26,7 +26,7 @@ p, h1, h2, h3, h4, h5, h6 {
 h2 ,h1 {
     font-size: 32px;
     line-height: 36px;
-    letter-spacing: -0.28px;
+    letter-spacing: -0.25px;
     color: #36536B;
     text-align: center;
 }
@@ -376,4 +376,72 @@ footer ul li {
     background-repeat: no-repeat;
     background-size: cover;
     pointer-events: none;
+}
+
+/* PRICING.HTML*/
+/* refactor later */
+.pricing-header {
+    padding-bottom: 48px;
+    overflow: visible;
+    border: 1px solid red;
+    padding-top: 40px;
+}
+.pricing-header-mask {
+    position: absolute;
+    top: -664px;
+    left: 74px;
+    width: 780px;
+    height: 780px;
+    background-image: url(assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.pricing-nav {
+    padding: 0 24px;
+}
+
+/* free plan section */
+.free-plan h2{
+   font-size: 24px;
+   line-height: 32px;
+   letter-spacing: -0.18px;
+   color: #BA4270;
+   margin-top: 48px;
+}
+
+.offer-plan {
+      color: #6C8294;
+      text-align: center;
+      width: 327px;
+      margin: 0 auto;
+      padding: 16px;
+}
+
+.free-plan .amount{
+    font-size: 56px;
+    font-family: "DM Serif Display";
+    line-height: 72px;
+    letter-spacing: -0.43px;
+    color: #36536B;
+    text-align: center;
+    padding: 32px;
+}
+
+
+.line-break {
+    width: 327px;
+    border-bottom: 1px solid #36536B;
+    opacity: 25%;
+    margin: 0 auto;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+}
+.allowed {
+    display: flex;
+    gap: 10px;
 }
