@@ -487,6 +487,7 @@ footer ul li {
 }
 
 /* about.html */
+/* about intro section */
 .about-intro h1 {
     width: 327px;
     margin: 0 auto;
@@ -513,4 +514,43 @@ footer ul li {
 .about-intro img {
     margin: 0 auto;
     margin-top: 76px;
+    width: 100%;
+}
+
+/* capacity section */
+.capacity {
+    width: 327px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.upper-break {
+    margin-bottom: 16px;
+}
+
+.no-members p,
+.us-offices p,
+.transactions p {
+    font-size: 16px;
+    color: #36536B;
+}
+
+.no-members .numbers,
+.us-offices .numbers,
+.transactions .numbers{
+    font-size: 56px;
+    font-family: "DM Serif Display";
+    color: #BA4270;
+    letter-spacing: -0.43px;
+    line-height: 72px;
+    
+}
+
+.us-offices,
+.no-members {
+    margin-bottom: 32px;
+}
+
+.transactions {
+    margin-bottom: 16px;
 }
