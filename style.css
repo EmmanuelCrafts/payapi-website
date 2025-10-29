@@ -403,7 +403,7 @@ footer ul li {
 }
 
 /* free plan section */
-.free-plan h2{
+.subscription {
    font-size: 24px;
    line-height: 32px;
    letter-spacing: -0.18px;
@@ -412,21 +412,21 @@ footer ul li {
 }
 
 .offer-plan {
-      color: #6C8294;
+      color: #36536B;
       text-align: center;
       width: 327px;
       margin: 0 auto;
-      padding: 16px;
+      padding: 24px;
 }
 
-.free-plan .amount{
+ .amount{
     font-size: 56px;
     font-family: "DM Serif Display";
     line-height: 72px;
     letter-spacing: -0.43px;
     color: #36536B;
     text-align: center;
-    padding: 32px;
+    padding: 24px;
 }
 
 
@@ -440,8 +440,50 @@ footer ul li {
 .benefits {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    width: 134px;
+    gap: 8px;
+    margin: 0 auto;
+    margin-top: 24px;
 }
-.allowed {
+.allowed p,
+.locked p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #36536B;
+}
+
+.allowed,  
+.locked {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.locked p {
+    opacity: 50%;
+}
+
+.locked img{
+    visibility: hidden;
+}
+
+.access-btn {
+    width: fit-content;
+    display: block;
+    padding: 16px 28px 14px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.12px;
+    background-color: transparent;
+    border-radius: 24px;
+    color: #36536B;
+    margin: 24px auto;
+    border: 1px solid #36536B;
+    cursor: pointer;
+}
+
+.access-btn:hover {
+    background-color: #36536B;
+    color: #ffffff;
 }
