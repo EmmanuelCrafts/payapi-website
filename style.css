@@ -554,3 +554,26 @@ footer ul li {
 .transactions {
     margin-bottom: 16px;
 }
+
+.culture,
+.people {
+    width: 327px;
+    margin: 0 auto;
+}
+
+.culture h2,
+.people h2{
+    letter-spacing: -0.18px;
+    line-height: 32px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.culture p,
+.people p{
+  color: #6C8294;
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 0px;
+  font-size: 15px;
+  margin-bottom: 48px;
+}
