@@ -316,9 +316,8 @@ header {
 
 /* start section */
 .start-container {
-    margin: 0 auto;
+    margin: 80px auto;
     width: 328px;
-    margin-top: 80px;
 }
 .start-container h2 {
     margin-bottom: 32px;
@@ -379,12 +378,11 @@ footer ul li {
 }
 
 /* PRICING.HTML*/
-/* refactor later */
-.pricing-header {
+.page-header {
     overflow: visible;
     overflow: hidden;
 }
-.pricing-header-mask {
+.page-header-mask {
     position: absolute;
     top: -664px;
     left: 74px;
@@ -397,7 +395,7 @@ footer ul li {
 
 }
 
-.pricing-nav {
+.page-nav {
     padding: 40px 24px;
 }
 
@@ -486,4 +484,33 @@ footer ul li {
 .access-btn:hover {
     background-color: #36536B;
     color: #ffffff;
+}
+
+/* about.html */
+.about-intro h1 {
+    width: 327px;
+    margin: 0 auto;
+}
+
+.about-intro h2{
+    font-size: 24px;
+    letter-spacing: -0.18px;
+    margin-bottom: 16px;
+}
+
+.about-intro p{
+    width: 327px;
+    margin: 0 auto;
+    color: #6C8294;
+    text-align: center;
+    line-height: 28px;
+}
+.vision{
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+
+.about-intro img {
+    margin: 0 auto;
+    margin-top: 76px;
 }
