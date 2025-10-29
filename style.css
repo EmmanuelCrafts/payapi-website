@@ -381,10 +381,8 @@ footer ul li {
 /* PRICING.HTML*/
 /* refactor later */
 .pricing-header {
-    padding-bottom: 48px;
     overflow: visible;
-    border: 1px solid red;
-    padding-top: 40px;
+    overflow: hidden;
 }
 .pricing-header-mask {
     position: absolute;
@@ -396,10 +394,11 @@ footer ul li {
     background-repeat: no-repeat;
     background-size: cover;
     pointer-events: none;
+
 }
 
 .pricing-nav {
-    padding: 0 24px;
+    padding: 40px 24px;
 }
 
 /* free plan section */
