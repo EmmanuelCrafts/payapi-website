@@ -178,13 +178,14 @@ header {
 
 .partners-logos {
     display: grid;
-    justify-items: center;
+    justify-items: flex-start;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     width: fit-content;
     margin: 0 auto;
     gap: 32px;
     align-items: center;
+    border: 1px solid red;
    
 }
 
