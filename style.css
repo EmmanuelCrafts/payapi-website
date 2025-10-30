@@ -185,7 +185,6 @@ header {
     margin: 0 auto;
     gap: 32px;
     align-items: center;
-    border: 1px solid red;
    
 }
 
@@ -577,4 +576,103 @@ footer ul li {
   letter-spacing: 0px;
   font-size: 15px;
   margin-bottom: 48px;
+}
+
+/* contact.html */
+.contact-title {
+    width: 327px;
+    margin: 0 auto;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    margin: 40px auto 80px auto;
+    gap: 24px;
+}
+
+.form-container input{
+    border: none;
+    border-bottom: 1px solid #36536B;
+    background-color: transparent;
+    opacity: 50%;
+    width: 100%;
+}
+
+
+.form-input label{
+    color: #36536B;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    padding-left: 20px;
+    opacity: 50%;
+}
+
+.message input {
+    margin-top: 63px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 16px;
+}
+.checkbox span {
+    display: flex;
+    position: relative;
+    width: fit-content;
+}
+
+.checkbox svg{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    pointer-events: none;
+    display: none;
+}
+.checkbox input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+     appearance: none;
+    -webkit-appearance: none;
+    background-color: #979787;
+    opacity: 25%;
+    cursor: pointer;
+    outline: none;
+}
+
+.checkbox input[type="checkbox"]:checked{
+  background-color: #BA4270;
+  opacity: 100%;
+}
+
+.checkbox input[type="checkbox"]:checked + svg{
+  display: block;
+}
+.checkbox label {
+    width: 277px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: #36536B;
+}
+
+.form-container button{
+    padding: 16px 49px 14px 51px;
+    width: 157px;
+    border-radius: 24px;
+    background-color: transparent;
+    color: #36536B;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: -0.12x;
+    border: 1px solid #36536B;
+}
+
+
+
+.form-container button:hover {
+    background-color: #36536B;
+    color: #ffffff;
 }
