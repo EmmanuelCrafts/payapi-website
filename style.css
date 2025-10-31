@@ -600,7 +600,10 @@ footer ul li {
     width: 100%;
 }
 
-
+.form-input input:focus {
+    outline: none;
+    border-bottom: 1px solid #ff0000;
+}
 .form-input label{
     color: #36536B;
     line-height: 25px;
@@ -675,4 +678,18 @@ footer ul li {
 .form-container button:hover {
     background-color: #36536B;
     color: #ffffff;
+}
+
+/* partners section */
+.partners-container {
+    width: 327px;
+    margin: 0 auto;
+}
+
+.partners-container h2{
+    opacity: 75%;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
 }
