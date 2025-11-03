@@ -926,3 +926,33 @@ footer ul li {
       width: 100%;
     }
 }
+
+/* offers section */
+
+@media (min-width: 768px) {
+  .offers-container {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 689px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 80px;
+  }    
+}
+
+
+@media (min-width: 768px) {
+  .offers-cards {
+    width: 223px;
+    
+  }    
+}
+
+
+@media (min-width: 768px) {
+  .offers-cards img{
+    width: 88px;
+    height: 88px;
+  }    
+}
+
