@@ -67,44 +67,6 @@ header {
     pointer-events: none;
 
 }
-/* Small phones */
-@media (min-width: 500px) and (max-width: 600px) {
-  .header-mask {
-    top: -85vw;
-    left: -20vw;
-    width: 130vw;
-    height: 130vw;
-  }
-}
-
-/* tablets */
-@media (min-width:768px) {
-    .header-mask {
-        top: -78%;
-        left: -91px;
-        width: 949px;
-        height: 949px;
-    }
-}
-
-/* large tablets */
-@media (min-width: 800px) {
-  .header-mask {
-    top: -97%;
-    left: -18%;
-    width: 130%;
-    height: 130%;
-  }
-}
-
-@media (min-width: 900px) {
-    .header-mask {
-        width: 100vh;
-        height: 100vh;
-        top: -80vh;
-        left: -16vh;
-    }
-}
 /* navbar styling */
 .header-nav {
     display: flex;
@@ -114,7 +76,6 @@ header {
     height: 38px;
     margin: 0px auto;
     margin-top: 40px;
-    border: 1px solid red ;
 }
 
  .nav-list,
@@ -123,44 +84,12 @@ header {
     }
 
 
-@media (min-width: 768px) {
-    .nav-list {
-        list-style: none;
-        display: flex;
-        gap: 40px;
-    }
-}
-
-@media (min-width: 768px) {
-      .nav-list a {
-        color: #36536B;
-        opacity: 70%;
-        font-weight: bold;
-      }    
-}
-@media (min-width: 768px) {
-    .nav-btn {
-        display: block;
-        width: fit-content;
-         background-color: #BA4270;
-        color: #FBFCFE;
-        border: none;
-        border-radius: 24px;
-        padding: 16px 24.5px 14px 26.5px;
-        cursor: pointer;
-        font-weight: bold;
-    }
-}
 .menu-icon {
     cursor: pointer;
     width: 28px;
     height: 17px;
 }
-@media (min-width: 768px) {
-    .menu-icon {
-        display: none;
-    }
-}
+
 /* hero section styling */
 
 .hero-image {
@@ -184,7 +113,6 @@ header {
 }
 
 
-
 .email-input {
     background-color: #FBFCFE;
     width: 327px;
@@ -197,12 +125,17 @@ header {
     padding: 16px 157px 14px 27px;
 }
 
+.email-input:focus {
+   outline: 1px solid #6C829440;
+}
+
 .email-input::placeholder {
     color: #36536B;
     opacity: 50%;
     font-weight: bold;
     width: 153px;
 }
+
 
 .demo-btn {
     background-color: #BA4270;
@@ -215,6 +148,7 @@ header {
     font-weight: bold;
     margin-bottom: 24px;
 }
+
 
 .demo-btn:hover,
 .nav-btn:hover {
@@ -460,6 +394,7 @@ footer ul li {
     pointer-events: none;
 }
 
+  
 /* PRICING.HTML*/
 .page-header {
     overflow: visible;
@@ -777,3 +712,129 @@ footer ul li {
     line-height: 32px;
     letter-spacing: -0.18px;
 }
+
+         /* Tablet styles */
+  
+/* homepage */
+/* header mask */
+/* Small phones */
+@media (min-width: 500px) and (max-width: 600px) {
+  .header-mask {
+    top: -85vw;
+    left: -20vw;
+    width: 130vw;
+    height: 130vw;
+  }
+}
+
+/* tablets */
+@media (min-width:768px) {
+    .header-mask {
+        top: -88%;
+        left: -13%;
+        width: 969px;
+        height: 969px;
+    }
+}
+
+/* large tablets */
+@media (min-width: 800px) {
+  .header-mask {
+    top: -80vh;
+    left: -17vh;
+    width: 100vh;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 900px) {
+    .header-mask {
+        width: 100vh;
+        height: 100vh;
+        top: -80vh;
+        left: -16vh;
+    }
+}
+
+/* navbar styling */
+
+@media (min-width: 768px) {
+    .nav-list {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+      .nav-list a {
+        color: #36536B;
+        opacity: 70%;
+        font-weight: bold;
+      }    
+}
+@media (min-width: 768px) {
+    .nav-btn {
+        display: block;
+        width: fit-content;
+         background-color: #BA4270;
+        color: #FBFCFE;
+        border: none;
+        border-radius: 24px;
+        padding: 16px 24.5px 14px 26.5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+/* hero-section styling */
+
+@media (min-width: 768px) {
+    .hero-content{
+       width: 573px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .hero-content h1 {
+        width: 100%;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .hero-content form {
+       display: flex;
+       align-items: center;
+       position: relative;
+       width: 447px;
+       margin: 0 auto;
+       
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-content input{
+          width: 100%;
+    }
+}
+@media (min-width: 768px) {
+   .hero-content .demo-btn {
+        width: fit-content;
+        position: absolute;
+        padding: 16px 24.5px 14px 26.5px;
+        right: 0%;
+        top: 0.1px;
+    }
+}
+
