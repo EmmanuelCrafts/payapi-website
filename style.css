@@ -838,3 +838,43 @@ footer ul li {
     }
 }
 
+/* partners section */
+@media (min-width: 768px) {
+    .partners {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .partners-mask{
+      width: 100vw;
+      height: 100vw;
+      left: 0vw;
+      top: -70vw;
+    }
+}
+
+@media (min-width: 768px) {
+ .partners-logos {
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     row-gap: 39px;
+     column-gap: 60px;
+ }
+}
+
+@media (min-width: 768px) {
+    .partners h2{
+        margin-top: 64px;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+    }
+}
+
+@media (min-width: 768px) {
+    .partners p{
+        width: 456px;
+    }
+}
+
