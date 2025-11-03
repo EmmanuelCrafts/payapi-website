@@ -282,7 +282,10 @@ header {
 }
 
 /* simple UI & UX section styling */
-
+.ui-image {
+        width: 90%;
+        margin: 0 auto;
+}
 
 .ui-content p {
     width: 328px;
@@ -898,6 +901,28 @@ footer ul li {
 /* api implementation section */
 @media (min-width: 768px) {
     .api-implementation p{
+      width: 100%;
+    }
+}
+
+/* simple UI & ux section */
+@media (min-width: 768px) {
+    .ui{
+      width: 573px;
+      margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .ui-content h2{
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+    }
+}
+
+@media (min-width: 768px) {
+    .ui-content p{
       width: 100%;
     }
 }
