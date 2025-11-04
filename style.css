@@ -10,7 +10,6 @@ html, body {
 }
 
 
-
 img, picture {
     max-width: 100%;
     display: block;
@@ -52,8 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     position: relative;
-    padding-bottom: 32px;
     overflow: hidden;
+    padding-bottom: 32px;
 }
 
 .header-mask {
@@ -73,10 +72,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 90vw;
     height: 38px;
     margin: 0px auto;
-    margin-top: 40px;
+    padding: 40px 0px;
 }
 
  .nav-list,
@@ -405,8 +404,8 @@ footer ul li {
   
 /* PRICING.HTML*/
 .page-header {
-    overflow: visible;
     overflow: hidden;
+    padding-bottom: 48px;
 }
 .page-header-mask {
     position: absolute;
@@ -421,9 +420,6 @@ footer ul li {
 
 }
 
-.page-nav {
-    padding: 40px 24px;
-}
 
 /* free plan section */
 .subscription {
@@ -434,12 +430,19 @@ footer ul li {
    margin-top: 48px;
 }
 
+.pricing {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .offer-plan {
       color: #36536B;
       text-align: center;
-      width: 327px;
-      margin: 0 auto;
-      padding: 24px;
+      width: 90%;
+      padding: 24px 0px;
       line-height: 28px;
 }
 
@@ -455,10 +458,9 @@ footer ul li {
 
 
 .line-break {
-    width: 327px;
+    width: 90%;
     border-bottom: 1px solid #36536B;
     opacity: 25%;
-    margin: 0 auto;
 }
 
 .benefits {
@@ -467,8 +469,7 @@ footer ul li {
     align-items: flex-start;
     width: 134px;
     gap: 8px;
-    margin: 0 auto;
-    margin-top: 24px;
+    margin: 24px  0px;
 }
 .allowed p,
 .locked p{
@@ -502,7 +503,7 @@ footer ul li {
     background-color: transparent;
     border-radius: 24px;
     color: #36536B;
-    margin: 24px auto;
+    margin: 24px 0;
     border: 1px solid #36536B;
     cursor: pointer;
 }
@@ -1036,5 +1037,50 @@ footer ul li {
     .social-media-links{
         margin: 0px;
         margin-left: auto;
+    }
+}
+
+ /* pricing page */
+
+ @media (min-width: 768px) {
+    .page-header{
+       overflow: hidden;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-header-mask{
+       top: -464px;
+       left: 505px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+       font-size: 48px;
+       letter-spacing: -0.37px;
+       line-height: 56px;
+    }
+}
+/* pricing section */
+@media (min-width: 768px) {
+    .pricing-container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .pricing{
+        width: 30%;
+        margin: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .amount{
+        font-size: 48px;
+        letter-spacing: -0.37px;
     }
 }
