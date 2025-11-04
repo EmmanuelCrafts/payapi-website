@@ -782,6 +782,13 @@ footer ul li {
         font-weight: bold;
       }    
 }
+
+@media (min-width: 768px) {
+      .nav-list a:hover ,
+      footer a:hover {
+        opacity: 100%;
+      }    
+}
 @media (min-width: 768px) {
     .nav-btn {
         display: block;
@@ -810,6 +817,11 @@ footer ul li {
     }
 }
 
+@media (min-width: 768px) {
+    .hero-image{
+       top: 25px;
+    }
+}
 
 @media (min-width: 768px) {
     .hero-content h1 {
