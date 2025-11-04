@@ -6,8 +6,9 @@
 }
 
 html, body {
-    height: 100dvh;
+    min-height: 100dvh;
 }
+
 
 
 img, picture {
@@ -353,7 +354,6 @@ footer {
     flex-direction: column;
     padding-bottom: 55px;
     align-items: center;
-    min-height: 45dvh;
     position: relative;
     overflow: hidden;
 }
@@ -363,10 +363,13 @@ footer svg {
 }
 
 .footer-nav {
- width: 58px;
- height: 115px;
  margin-top: 40px;
 }
+
+ footer ul a{
+       color: #FBFCFE;
+       opacity: 70%;
+    }
 
 footer ul {
     list-style: none;
@@ -816,7 +819,8 @@ footer ul li {
 
 
 @media (min-width: 768px) {
-    .hero-content form {
+    .hero-content form ,
+    .start-container form{
        display: flex;
        align-items: center;
        position: relative;
@@ -827,12 +831,14 @@ footer ul li {
 }
 
 @media (min-width: 768px) {
-    .hero-content input{
+    .hero-content input,
+    .start-container input{
           width: 100%;
     }
 }
 @media (min-width: 768px) {
-   .hero-content .demo-btn {
+   .hero-content .demo-btn,
+   .start-container .demo-btn {
         width: fit-content;
         position: absolute;
         padding: 16px 24.5px 14px 26.5px;
@@ -956,3 +962,67 @@ footer ul li {
   }    
 }
 
+/* start container */
+
+@media (min-width: 768px) {
+    .start-container{
+        width: 446px;
+        margin-top: 100px;
+    }
+}
+@media (min-width: 768px) {
+    .start-container h2{
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+    }
+}
+
+/* footer styling */
+
+@media (min-width: 768px) {
+    footer{
+        padding: 0px 40px;
+        flex-direction: row;
+        gap: 65px;
+        align-items: center;
+        height: 100px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .footer-mask{
+       top: -136px;
+       left: 378px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer svg{
+        margin: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer ul{
+        flex-direction: row;
+        gap: 40px;   
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-nav{
+        margin: 0px;
+        height: fit-content;
+        width: fit-content;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .social-media-links{
+        margin: 0px;
+        margin-left: auto;
+    }
+}
