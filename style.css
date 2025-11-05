@@ -462,7 +462,7 @@ h1 {
     padding: 24px;
 }
 
-
+/* line break styling */
 .line-break {
     width: 90%;
     border-bottom: 1px solid #36536B;
@@ -557,6 +557,9 @@ h1 {
     text-align: center;
 }
 
+.break {
+    display: none;
+}
 .upper-break {
     margin-bottom: 16px;
 }
@@ -1119,8 +1122,8 @@ h1 {
     .about-intro h2{
         font-size: 32px;
         letter-spacing: -0.25px;
-         margin-bottom: 0px;
-         column-gap: 64px;
+        margin-bottom: 0px;
+        column-gap: 64px;
         line-height: 40px;
     }
 }
@@ -1128,7 +1131,9 @@ h1 {
 
 @media (min-width: 768px) {
     .vision,
-    .business {
+    .business,
+    .culture,
+    .people {
       display: flex;
       width: 90%;
       justify-content: space-between;
@@ -1137,10 +1142,19 @@ h1 {
 }
 
 @media (min-width: 768px) {
-    .about-intro p{
+    .about-intro p,
+    .culture p,
+    .people p{
         width: 70%;
         margin: 0;
         text-align: left;
+    }
+}
+
+
+@media (min-width: 768px) {
+     .vision {
+        margin-bottom: 64px;
     }
 }
 
@@ -1150,17 +1164,53 @@ h1 {
     }
 }
 
+/* capacity-section */
 @media (min-width: 768px) {
-     {
+     .capacity {
+        width: 90%;
     }
 }
 
 @media (min-width: 768px) {
-    . {
+      .stats{
+        display: flex;
+        justify-content: space-between;
     }
 }
 
+/* line break styling */
 @media (min-width: 768px) {
-      {
+     .capacity .line-break{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+      .break{
+        margin: 32px 0;
+        border-bottom: 1px solid #36536B;
+        opacity: 25%;
+        width: 100%;
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) {
+      .transactions,
+      .no-members,
+      .us-offices {
+         width: 30%;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+      .culture {
+        margin: 32px auto 64px auto;
     }
 }
