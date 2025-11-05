@@ -24,7 +24,7 @@
     </header>
     <main>
       <section class="about-intro">
-        <h1>We empower innovators by delivering access to the financial system</h2>
+        <h1 class="about-heading">We empower innovators by delivering access to the financial system</h2>
         <div class="vision">
             <h2>Our vision</h3>
             <p>Our main goal is to build beautiful consumer experiences along  with developer friendly infrastracture. The results is an intelligent tool that gives everyone  the ability to create amazing products  that solve big problems. We are deeply focused on democratizing financial services through technology.</p>
@@ -34,7 +34,11 @@
             <h2>Our business</h3>
             <p>At the core of our platform  is the technical infrastracture APIs that connect consumers. Our innovators product provides key insights for business and individuals, as well as robust reporting for traditional financial institutions and developers.</p>
         </div>
-        <img src="assets/about/mobile/image-team-members.jpg" alt="team members working together in a  restaurant setting">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="assets/about/desktop/image-team-members.jpg">
+            <source media="(min-width: 768px)" srcset="assets/about/tablet/image-team-members.jpg">
+            <img src="assets/about/mobile/image-team-members.jpg" alt="team members working together in a  restaurant setting">
+        </picture>
       </section>
       <section class="capacity">
         <div class="line-break upper-break"></div>

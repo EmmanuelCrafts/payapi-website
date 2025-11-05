@@ -520,10 +520,11 @@ h1 {
 }
 
 /* about.html */
-/* about intro section */
-.about-intro h1 {
-    width: 327px;
+/* about-intro section */
+.about-heading {
+    width: 80%;
     margin: 0 auto;
+    margin-top: 48px;
 }
 
 .about-intro h2{
@@ -533,7 +534,7 @@ h1 {
 }
 
 .about-intro p{
-    width: 327px;
+    width: 80%;
     margin: 0 auto;
     color: #6C8294;
     text-align: center;
@@ -545,14 +546,13 @@ h1 {
 }
 
 .about-intro img {
-    margin: 0 auto;
     margin-top: 76px;
-    width: 100%;
+    width: 100vw;
 }
 
 /* capacity section */
 .capacity {
-    width: 327px;
+    width: 80%;
     margin: 48px auto;
     text-align: center;
 }
@@ -590,7 +590,7 @@ h1 {
 
 .culture,
 .people {
-    width: 327px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -1098,5 +1098,69 @@ h1 {
     .amount{
         font-size: 48px;
         letter-spacing: -0.37px;
+    }
+}
+
+/* about page */
+
+@media (min-width: 768px) {
+    .about-heading{
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: -0.37px;      
+            margin-top: 0px;      
+            width: 70%;
+            margin-bottom: 54px;
+        }
+}
+
+
+@media (min-width: 768px) {
+    .about-intro h2{
+        font-size: 32px;
+        letter-spacing: -0.25px;
+         margin-bottom: 0px;
+         column-gap: 64px;
+        line-height: 40px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .vision,
+    .business {
+      display: flex;
+      width: 90%;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-intro p{
+        width: 70%;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-intro img {
+     margin-top: 92px;
+    }
+}
+
+@media (min-width: 768px) {
+     {
+    }
+}
+
+@media (min-width: 768px) {
+    . {
+    }
+}
+
+@media (min-width: 768px) {
+      {
     }
 }
