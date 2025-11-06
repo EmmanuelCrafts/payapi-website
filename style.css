@@ -1233,15 +1233,19 @@ h1 {
     }
 }
 
-
+/* partners section */
 @media (min-width: 768px) {
-      .{
+      .partners-container{
+        width: 80%;
     }
 }
 
 
 @media (min-width: 768px) {
-      .{
+      .partners-container h2{
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 40px;
     }
 }
 
