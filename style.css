@@ -616,15 +616,16 @@ h1 {
 
 /* contact.html */
 .contact-title {
-    width: 327px;
+    width: 70%;
     margin: 0 auto;
+    padding-top: 48px;
 }
 
 
 .form-container {
     display: flex;
     flex-direction: column;
-    width: 327px;
+    width: 90%;
     margin: 40px auto 80px auto;
     gap: 24px;
 }
@@ -656,8 +657,9 @@ h1 {
 .checkbox {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     gap: 16px;
+    align-items: center;
+    width: fit-content;
 }
 .checkbox span {
     display: flex;
@@ -719,8 +721,9 @@ h1 {
 
 /* partners section */
 .partners-container {
-    width: 327px;
+    width: 90%;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 .partners-container h2{
@@ -1212,5 +1215,38 @@ h1 {
 @media (min-width: 768px) {
       .culture {
         margin: 32px auto 64px auto;
+    }
+}
+
+/* contact page */
+
+@media (min-width: 768px) {
+      .contact-title{
+        padding: 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+      .form-container{
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 768px) {
+      .{
+    }
+}
+
+
+@media (min-width: 768px) {
+      .{
+    }
+}
+
+
+@media (min-width: 768px) {
+      .{
     }
 }
