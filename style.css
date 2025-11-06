@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-content h1 {
-    width: 327px;
+    width: 95%;
     margin: 0 auto;
     padding-bottom: 24px;
 }
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .email-input {
     background-color: #FBFCFE;
-    width: 327px;
+    width: 95%;
     display: block;
     margin: 0 auto;
     margin-bottom: 16px;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #BA4270;
     color: #FBFCFE;
     border: none;
-    width: 327px;
+    width: 95%;
     border-radius: 24px;
     padding: 16px 48px 14px 50px;
     cursor: pointer;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* partners section styling */
 .partners {
-    padding: 80px 24px;
+    padding: 80px 0px;
     background-color: #1B262F;
     color: #FBFCFE;
     position: relative;
@@ -183,10 +183,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .partners-mask {
     position: absolute;
-    top: -602px;
-    left: -202px;
-    width: 780px;
-    height: 780px;
+    top: -72vw;
+    left: -16vw;
+    width: 130vw;
+    height: 130vw;
     background-image: url(assets/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,18 +195,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .partners-logos {
     display: grid;
-    justify-items: flex-start;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: fit-content;
-    margin: 0 auto;
-    gap: 32px;
+    width: 90%;
+    row-gap: 40px;
+    justify-items: center;
     align-items: center;
-   
+    margin: 0 auto;
 }
-
-/* logos */
-  
 
 .partners h2 {
     color: #FBFCFE;
@@ -219,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     opacity: 70%;
     font-size: 15px;
-    width: 327px;
+    width: 90%;
     margin: 0 auto;
     line-height: 28px;
     letter-spacing: 0px;
@@ -255,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .api-implementation img{
-   width: 80%;
+   width: 90%;
    margin: 0 auto;
    margin-top: 32px;
 
@@ -273,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
     font-weight: regular;
     text-align: center;
-    width: 328px;
+    width: 90%;
     margin: 0 auto;
     line-height: 28px;
     letter-spacing: 0px;
@@ -288,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ui-content p {
-    width: 328px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
@@ -309,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offers-cards {
-    width: 328px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -339,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 /* start section */
 .start-container {
     margin: 80px auto;
-    width: 328px;
+    width: 90%;
 }
 .start-container h2 {
     margin-bottom: 32px;
