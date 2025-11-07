@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 html, body {
     min-height: 100dvh;
 }
@@ -71,9 +72,8 @@ h1, h2, h3, h4, h5, h6 {
 /* navbar styling */
 .header-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 90vw;
+    width: 90%;
     height: 38px;
     margin: 0px auto;
 }
@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     width: 28px;
     height: 17px;
+    margin-left: auto;
 }
 
 /* hero section styling */
@@ -758,6 +759,11 @@ h1 {
 /* navbar styling */
 
 @media (min-width: 768px) {
+    .header-nav {
+        gap: 64px;
+    }
+}
+@media (min-width: 768px) {
     .nav-list {
         list-style: none;
         display: flex;
@@ -782,6 +788,7 @@ h1 {
 @media (min-width: 768px) {
     .nav-btn {
         display: block;
+        margin-left: auto;
         width: fit-content;
          background-color: #BA4270;
         color: #FBFCFE;
@@ -853,7 +860,7 @@ h1 {
 /* partners section */
 @media (min-width: 768px) {
     .partners {
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -1226,8 +1233,85 @@ h1 {
     }
 }
 
+/* laptop style */
+/* header style */
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+      {
+    }
+}
+
+
+@media (min-width: 1024px) {
+      .header-mask{
+        top: -280px;
+        left: 550px;
+        width: 780px;
+        height: 780px;
+    }
+} 
+
+/* hero styling */
+@media (min-width: 1024px) {
+      .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 90%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 1024px) {
+      .hero-image{
+        top: 0px;
+        height: 60vw;
+    }
+}
+
+@media (min-width: 1024px) {
+      .hero-content {
+        width: 50%;
+        margin: 0px;
+        top: 0px;
+        max-width: 547px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+      .hero-content h1{
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -0.55px;
+        text-align: left;
+        width: 100%;
+    }
+}
+@media (min-width: 1024px) {
+      .hero-content form{
+        width: 90%;
+        margin: 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+      .hero-content p{
+        width: fit-content;
+        padding-left: 27px;
+    }
+    
+}
+
+@media (min-width: 1024px) {
       .{
     }
 }
+
+@media (min-width: 1024px) {
+      .{
+    }
+}
+
