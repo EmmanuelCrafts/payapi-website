@@ -931,9 +931,9 @@ h1 {
 
 /* simple UI & ux section */
 @media (min-width: 768px) {
-    .ui{
+    .ui-container{
       width: 70%;
-      margin: 0 auto;
+      margin: 100px auto;
     }
 }
 
