@@ -273,6 +273,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* simple UI & UX section styling */
+.ui-mask {
+    display: none;
+}
 .ui-image {
         width: 90%;
         margin: 0 auto;
@@ -1407,12 +1410,74 @@ h1 {
     }
 }
 
+
+
+
+/* simple UI & UX section styling */
 @media (min-width: 1024px) {
-      . {
+       .ui-container {
+        margin-bottom: 150px;
+        overflow-x: clip;
+    }
+}
+
+
+
+
+@media (min-width: 1024px) {
+       .ui {
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 95px;
+        position: relative;
     }
 }
 
 @media (min-width: 1024px) {
-      . {
+      .ui-mask {
+        display: block;
+        position: absolute;
+        width: 780px;
+        height: 780px;
+        background-image: url(assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        pointer-events: none;
+        left: 70vw;
+    }
+}
+@media (min-width: 1024px) {
+       .ui-image img {
+        max-height: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+       .ui-content{
+        max-width: 445px;
+    }
+}
+
+@media (min-width: 1024px) {
+       .ui-content h2,
+       .ui-content p {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+       {
+    }
+}
+
+@media (min-width: 1024px) {
+       {
+    }
+}
+
+@media (min-width: 1024px) {
+       {
     }
 }
