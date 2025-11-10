@@ -273,12 +273,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* simple UI & UX section styling */
+.ui-container {
+    margin: 80px 0;
+}
 .ui-mask {
     display: none;
 }
-.ui-image {
+.ui-image img{
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 48px;
 }
 
 .ui-content p {
@@ -1445,12 +1449,14 @@ h1 {
         background-repeat: no-repeat;
         background-size: cover;
         pointer-events: none;
-        left: 70vw;
+        left: 75vw;
     }
 }
 @media (min-width: 1024px) {
        .ui-image img {
+        width: 40vw;
         max-height: 500px;
+        margin: 0;
     }
 }
 
