@@ -248,17 +248,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* api implementation section styling */
-
-
 .api-implementation img{
    width: 90%;
-   margin: 0 auto;
-   margin-top: 32px;
-
+   margin: 80px auto 48px auto;
 }
 .api-implementation-content {
     position: relative;
-    top: -48px;
 }  
 .api-implementation h2 {
     margin-bottom: 16px;
@@ -899,6 +894,13 @@ h1 {
 
 /* api implementation section */
 @media (min-width: 768px) {
+    .api-implementation img{
+     width: 50%;
+     margin-top: 100px;
+    }
+    
+}
+@media (min-width: 768px) {
     .api-implementation-content{
      width: 70%;
      margin: 0 auto;
@@ -1300,6 +1302,11 @@ h1 {
 
 /* partners styling */
 @media (min-width: 1024px) {
+      .partners {
+        padding: 100px 0;
+    }
+}
+@media (min-width: 1024px) {
       .partners-content{
         display: flex;
         width: 90%;
@@ -1362,21 +1369,50 @@ h1 {
 }
 
 
+/* api implementation section */
+@media (min-width: 1024px) {
+      .api-implementation {
+        display: flex;
+        width: min(90%, 1051px);
+        gap: 125px;
+        align-items: center;
+        margin: 150px auto;
+    }
+}
+
+
+@media (min-width: 1024px) {
+      .api-implementation img{
+        width: min(40vw, 445px);
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 1024px) {
+      .api-implementation-content {
+        top: 0;
+        margin: 0;
+        max-width: 445px;
+    }
+}
+
+
+
+
+@media (min-width: 1024px) {
+      .api-implementation p,
+      .api-implementation h2{
+        text-align: left;
+    }
+}
 
 @media (min-width: 1024px) {
       . {
     }
 }
 
-
 @media (min-width: 1024px) {
       . {
     }
 }
-
-
-@media (min-width: 1024px) {
-      . {
-    }
-}
-
