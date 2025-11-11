@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 /* hero section styling */
 
 .hero-image {
-    margin: 32px auto 24px auto;
+    margin: 32px auto;
     width: 31%;
 }
 
@@ -751,7 +751,7 @@ h1 {
 /* tablets */
 @media (min-width:768px) {
     .header-mask {
-        top: -90vw;
+        top: -95vw;
         left: -15vw;
         width: 130vw;
         height: 130vw;
@@ -818,7 +818,8 @@ h1 {
 
 @media (min-width: 768px) {
     .hero-image{
-       top: 25px;
+        width: 20%;
+        margin: 48px auto;
     }
 }
 
