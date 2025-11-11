@@ -94,17 +94,14 @@ h1, h2, h3, h4, h5, h6 {
 /* hero section styling */
 
 .hero-image {
-    margin: 0 auto;
-    position: relative;
-    top: -25px;
+    margin: 32px auto 24px auto;
+    width: 31%;
 }
 
 .hero-content {
     text-align: center;
     margin: 0 auto;
     width: 90%;
-     position: relative;
-     top: -54px;
 }
 
 .hero-content h1 {
@@ -1530,7 +1527,7 @@ h1 {
     }
 }
 
-
+/* homepage styling for  desktops */
 @media (min-width: 1024px) {
        {
     }
