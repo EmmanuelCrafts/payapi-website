@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* start section */
 .start-container {
-    margin: 80px auto;
+    margin: 80px auto 0px auto;
     width: 90%;
 }
 .start-container h2 {
@@ -345,6 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* footer styling */
 footer {
+    margin-top: 80px;
     background-color: #1B262F;
     color: #ffffff;
     display: flex;
@@ -1003,6 +1004,7 @@ h1 {
 
 @media (min-width: 768px) {
     footer{
+        margin-top: 100px;
         padding: 0px 40px;
         flex-direction: row;
         gap: 65px;
@@ -1435,6 +1437,8 @@ h1 {
 
 @media (min-width: 1024px) {
        .ui {
+                border: 1px solid red;
+
         width: 90%;
         display: flex;
         flex-direction: row-reverse;
@@ -1492,6 +1496,37 @@ h1 {
         width: min(35%, 106px);
     }
 }
+
+/* start container styling */
+@media (min-width: 1024px) {
+       .start-container {
+         display: flex;
+         align-items: center;
+         border: 1px solid red;
+         justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 1024px) {
+       .start-container form{
+        max-width: 445px;
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 1024px) {
+       {
+    }
+}
+
+
+@media (min-width: 1024px) {
+       {
+    }
+}
+
 
 @media (min-width: 1024px) {
        {
