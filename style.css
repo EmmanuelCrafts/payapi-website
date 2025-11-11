@@ -922,7 +922,7 @@ h1 {
     }
 }
 
-/* api implementation section */
+
 @media (min-width: 768px) {
     .api-implementation p{
       width: 100%;
@@ -932,8 +932,13 @@ h1 {
 /* simple UI & ux section */
 @media (min-width: 768px) {
     .ui-container{
+      margin: 100px 0;
+    }
+}
+@media (min-width: 768px) {
+    .ui{
       width: 70%;
-      margin: 100px auto;
+      margin: 0px auto;
     }
 }
 
@@ -960,15 +965,14 @@ h1 {
     width: 90%;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 100px;
   }    
 }
 
 
 @media (min-width: 768px) {
   .offers-cards {
-    width: 223px;
-    
+    width: 32%;
   }    
 }
 
@@ -1383,7 +1387,7 @@ h1 {
         width: min(90%, 1051px);
         gap: 125px;
         align-items: center;
-        margin: 150px auto;
+        margin: 150px auto 0px auto;
     }
 }
 
@@ -1420,7 +1424,8 @@ h1 {
 /* simple UI & UX section styling */
 @media (min-width: 1024px) {
        .ui-container {
-        margin-bottom: 150px;
+        margin-top: 150px;
+        margin-bottom: 0;
         overflow-x: clip;
     }
 }
@@ -1473,13 +1478,18 @@ h1 {
     }
 }
 
+/* offers container styling */
 @media (min-width: 1024px) {
-       {
+       .offers-container {
+        border: 1px solid red;
+        margin-top: 150px;
+
     }
 }
 
 @media (min-width: 1024px) {
-       {
+       .offers-cards img{
+        width: min(35%, 106px);
     }
 }
 
