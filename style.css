@@ -1272,20 +1272,21 @@ h1 {
 /* hero styling */
 @media (min-width: 1024px) {
       .hero {
+        border: 1px solid red;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         width: 90%;
         justify-content: space-between;
-        margin: 0 auto;
+        margin: 74px auto;
     }
 }
 
 
 @media (min-width: 1024px) {
       .hero-image{
-        top: 0px;
-        height: 60vw;
+        width: min(25vw,263px);
+        margin: 0;
     }
 }
 
