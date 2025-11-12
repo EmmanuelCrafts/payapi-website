@@ -1116,14 +1116,13 @@ h1 {
 }
 
 /*ABOUT PAGE */
-
 @media (min-width: 768px) {
     .about-heading{
             font-size: 48px;
             line-height: 56px;
             letter-spacing: -0.37px;      
             margin-top: 0px;      
-            width: 70%;
+            width: min(70%, 730px);
             margin-bottom: 54px;
         }
 }
@@ -1146,7 +1145,7 @@ h1 {
     .culture,
     .people {
       display: flex;
-      width: 90%;
+      width: min(90%, 920px);
       justify-content: space-between;
       margin: 0 auto;
     }
@@ -1651,19 +1650,31 @@ h1 {
        .pricing-container,
        h1 {
           width: min(80%, 1110px);
+    }
+}
 
+
+/* ABOUT PAGE */
+@media (min-width: 1024px) {
+       .heading-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+       .about-heading{
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.43px;  
+        margin: 0;
+        margin-bottom: 51px;
     }
 }
 
 
 @media (min-width: 1024px) {
-       . {
-    }
-}
-
-
-@media (min-width: 1024px) {
-       . {
+       .{
     }
 }
 
