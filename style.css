@@ -410,10 +410,10 @@ footer ul li {
 }
 .page-header-mask {
     position: absolute;
-    top: -664px;
-    left: 74px;
-    width: 780px;
-    height: 780px;
+    top: -70vw;
+    left: 45vw;
+    width: 100vw;
+    height: 100vw;
     background-image: url(assets/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1589,7 +1589,11 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-       . {
+       .page-header-mask {
+        top: -35vw;
+        left: 60vw;
+        width: 50vw;
+        height: 50vw;
     }
 }
 
