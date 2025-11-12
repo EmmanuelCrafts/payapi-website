@@ -1115,7 +1115,7 @@ h1 {
     }
 }
 
-/* about page */
+/*ABOUT PAGE */
 
 @media (min-width: 768px) {
     .about-heading{
@@ -1644,6 +1644,51 @@ h1 {
        line-height: 40px;
        letter-spacing: -0.25px;
    }
+}
+
+/* pricing page styling for large dektops */
+@media (min-width: 1280px) {
+       .pricing-container,
+       h1 {
+          width: min(80%, 1110px);
+
+    }
+}
+
+
+@media (min-width: 1024px) {
+       . {
+    }
+}
+
+
+@media (min-width: 1024px) {
+       . {
+    }
+}
+
+
+@media (min-width: 1024px) {
+       . {
+    }
+}
+
+
+@media (min-width: 1024px) {
+       . {
+    }
+}
+
+
+@media (min-width: 1024px) {
+       . {
+    }
+}
+
+
+@media (min-width: 1024px) {
+       . {
+    }
 }
 
 @media (min-width: 1024px) {
