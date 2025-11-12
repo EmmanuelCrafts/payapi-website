@@ -1275,8 +1275,9 @@ h1 {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+        justify-content: flex-end;
         width: 90%;
-        justify-content: space-between;
+        gap: 206px;
         margin: 74px auto;
     }
 }
@@ -1535,8 +1536,11 @@ h1 {
        .header-mask {
           top: -15vw;
           left: 55vw;
+          width: 780px;
+          height:780px;
     }
 }
+
 
 @media (min-width: 1280px) {
        .header-nav,
