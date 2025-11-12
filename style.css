@@ -436,7 +436,7 @@ h1 {
 }
 
 .pricing {
-    width: 80vw;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -446,24 +446,23 @@ h1 {
 .offer-plan {
       color: #36536B;
       text-align: center;
-      width: 90%;
       padding: 24px 0px;
       line-height: 28px;
 }
 
- .amount{
+ .amount {
     font-size: 56px;
     font-family: "DM Serif Display";
     line-height: 72px;
     letter-spacing: -0.43px;
     color: #36536B;
     text-align: center;
-    padding: 24px;
+    margin-bottom: 24px;
 }
 
 /* line break styling */
 .line-break {
-    width: 90%;
+    width: 100%;
     border-bottom: 1px solid #36536B;
     opacity: 25%;
 }
@@ -1065,7 +1064,7 @@ h1 {
 
 @media (min-width: 768px) {
     .page-header{
-      padding-bottom: 75px;
+      margin-bottom: 75px;
     }
 }
 
@@ -1088,9 +1087,10 @@ h1 {
 @media (min-width: 768px) {
     .pricing-container{
         display: flex;
-        justify-content: center;
         gap: 10px;
+        margin: 0 auto;
         margin-top: 69px;
+        width: 90%;
     }
 }
 
@@ -1103,8 +1103,8 @@ h1 {
 }
 @media (min-width: 768px) {
     .pricing{
-        width: 30%;
-        margin: 0px;
+     width: min(40%, 350px);
+     margin: 0px;
     }
 }
 
@@ -1580,12 +1580,66 @@ h1 {
     }
 }
 
-@media (min-width: 1280px) {
-       {
+ /* LAPTOP STYLES FOR  PRICING PAGE */
+@media (min-width: 1024px) {
+       .page-header {
+        margin-bottom: 82px;
+
     }
 }
 
 @media (min-width: 1024px) {
-       {
+       . {
     }
 }
+
+@media (min-width: 1024px) {
+       h1 {
+        text-align: left;
+        font-size: 56px;
+        letter-spacing: -0.43px;
+        line-height: 56px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+       .pricing-container {
+        gap: 30px;
+        margin-top: 72px;
+    }
+}
+@media (min-width: 1024px) {
+       .pricing {
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1024px) {
+       .offer-plan {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+       .amount {
+          font-size: 56px;
+          line-height: 72px;
+          letter-spacing: -0.37px;
+    }
+}
+
+@media (min-width: 1024px) {
+     .subscription {
+       font-size: 32px;
+       line-height: 40px;
+       letter-spacing: -0.25px;
+   }
+}
+
+@media (min-width: 1024px) {
+       . {
+    }
+}
+
