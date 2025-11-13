@@ -1658,7 +1658,7 @@ h1 {
    }
 }
 
-/* pricing page styling for large dektops */
+/* for large dektops */
 @media (min-width: 1280px) {
        .pricing-container,
        h1 {
@@ -1770,10 +1770,14 @@ h1 {
     }
 }
 
-@media (min-width: 1024px) {
-       . {
+  /* larger Desktops */
+@media (min-width: 1280px) {
+       .contact-heading,
+       .contact-container { 
+             width: min(80%, 1110px);
     }
 }
+
 
 @media (min-width: 1024px) {
        . {
