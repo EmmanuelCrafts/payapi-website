@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 90%;
+    width: 100%;
     row-gap: 40px;
     justify-items: center;
     align-items: center;
@@ -523,9 +523,10 @@ h1 {
     position: relative;
 }
 .about-heading {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 48px;
+    border: 1px solid red;
 }
 
 .about-mask {
@@ -545,7 +546,7 @@ h1 {
 }
 
 .about-intro p{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     color: #6C8294;
     text-align: center;
@@ -563,7 +564,7 @@ h1 {
 
 /* capacity section */
 .capacity {
-    width: 80%;
+    width: 90%;
     margin: 48px auto;
     text-align: center;
 }
@@ -604,7 +605,7 @@ h1 {
 
 .culture,
 .people {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -627,7 +628,7 @@ h1 {
 
         /* CONTACT PAGE*/
 .contact-title {
-    width: 70%;
+    width: min(90%, 327px);
     margin: 0 auto;
     padding-top: 48px;
 }
@@ -734,9 +735,15 @@ h1 {
 .partners-container {
     width: 90%;
     margin: 0 auto;
-    padding: 0 24px;
+    border: 1px solid red;
 }
 
+.partners-container .partners-logos {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.
 .partners-container h2{
     opacity: 75%;
     margin-bottom: 32px;
