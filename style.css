@@ -517,7 +517,7 @@ h1 {
     color: #ffffff;
 }
 
-/* about.html */
+         /* ABOUT PAGE */
 /* about-intro section */
 .about-intro {
     position: relative;
@@ -625,7 +625,7 @@ h1 {
   margin-bottom: 48px;
 }
 
-/* contact.html */
+        /* CONTACT PAGE*/
 .contact-title {
     width: 70%;
     margin: 0 auto;
@@ -1238,7 +1238,7 @@ h1 {
     }
 }
 
-/* contact page */
+         /* CONTACT PAGE */
 
 @media (min-width: 768px) {
       .contact-title{
@@ -1711,17 +1711,69 @@ h1 {
 }
 
 
+  /* CONTACT PAGE  */
 @media (min-width: 1024px) {
-       . {
+       .contact-heading {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+       .contact-title {
+        margin: 0;
+        max-width: 730px;
+    }
+}
+
+@media (min-width: 1024px) {
+       .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 48px;
+        width: 90%;
     }
 }
 
 
 @media (min-width: 1024px) {
-       . {
+       .form-container {
+        width: min(45%,445px);
+        margin: 0;
     }
 }
 
+@media (min-width: 1024px) {
+       .partners-container {
+        width: min(45%, 541px);
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+       .partners-container h2{
+        max-width: 445px;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+       .partners-container .partners-logos ,
+       .partners-container h2{
+          width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+       . {
+    }
+}
 
 @media (min-width: 1024px) {
        . {
