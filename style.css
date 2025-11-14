@@ -202,6 +202,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+
 .partners h2 {
     color: #FBFCFE;
     text-align: center;
@@ -350,6 +351,10 @@ footer {
     padding-bottom: 55px;
 
 }
+
+footer ul{
+      list-style: none;
+}
 .footer-section {
     display: flex;
     flex-direction: column;
@@ -364,21 +369,20 @@ footer svg {
  margin-top: 40px;
 }
 
- footer ul a{
+ .footer-nav ul a{
        color: #FBFCFE;
        opacity: 70%;
     }
 
-footer ul {
-    list-style: none;
+.footer-nav ul {
     display: flex;
     flex-direction: column;
-    font-size: bold;
     letter-spacing: 0px;
     opacity: 70%;
     gap: 31px;
     color: #FBFCFE;
 }
+
 footer ul li {
     cursor: pointer;
 }
@@ -389,6 +393,16 @@ footer ul li {
     margin-top: 40px;
 }
 
+
+.social-media-links svg {
+  color: #FBFCFE; /* default color */
+  margin: 0px;
+}
+
+.social-media-links svg:hover {
+  color: #da6d97; /* pink on hover */
+  cursor: pointer;
+}
 .footer-mask {
     position: absolute;
     top: 177px;
@@ -526,7 +540,6 @@ h1 {
     width: 90%;
     margin: 0 auto;
     margin-top: 48px;
-    border: 1px solid red;
 }
 
 .about-mask {
@@ -628,7 +641,7 @@ h1 {
 
         /* CONTACT PAGE*/
 .contact-title {
-    width: min(90%, 327px);
+    width: 90%;
     margin: 0 auto;
     padding-top: 48px;
 }
@@ -735,15 +748,16 @@ h1 {
 .partners-container {
     width: 90%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .partners-container .partners-logos {
     width: 100%;
-    border: 1px solid red;
 }
 
-.
+.partners-container img {
+    width: 70%;
+
+}
 .partners-container h2{
     opacity: 75%;
     margin-bottom: 32px;
@@ -1057,7 +1071,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-    footer ul{
+    .footer-nav ul{
         flex-direction: row;
         gap: 40px;   
     }
@@ -1250,6 +1264,7 @@ h1 {
 @media (min-width: 768px) {
       .contact-title{
         padding: 0;
+        max-width: 573px;
     }
 }
 
@@ -1267,6 +1282,11 @@ h1 {
     }
 }
 
+@media (min-width: 768px) {
+      .partners-container img{
+        width: 80%;
+    }
+}
 
 @media (min-width: 768px) {
       .partners-container h2{
@@ -1777,6 +1797,12 @@ h1 {
     }
 }
 
+@media (min-width: 1024px) {
+      .partners-container img{
+        width: 100%;
+    }
+}
+
   /* larger Desktops */
 @media (min-width: 1280px) {
        .contact-heading,
@@ -1785,14 +1811,4 @@ h1 {
     }
 }
 
-
-@media (min-width: 1024px) {
-       . {
-    }
-}
-
-@media (min-width: 1024px) {
-       . {
-    }
-}
 
