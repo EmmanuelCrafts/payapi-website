@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     font-weight: bold;
     margin-bottom: 24px;
+    transition: background-color 0.25s ease-in;
 }
 
 
@@ -231,6 +232,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     font-weight: bold;
     border: 1px solid #FBFCFE;
+    transition: background-color 0.3s ease-in, color 0.2s ease-in;
 }
 
 .partners button:hover {
@@ -371,11 +373,7 @@ footer svg {
  margin-top: 40px;
 }
 
- .footer-nav ul a{
-       color: #FBFCFE;
-       opacity: 70%;
-    }
-
+ 
 .footer-nav ul {
     display: flex;
     flex-direction: column;
@@ -384,6 +382,12 @@ footer svg {
     gap: 31px;
     color: #FBFCFE;
 }
+
+.footer-nav ul a{
+       color: #FBFCFE;
+       opacity: 70%;
+       transition: opacity 0.2s ease-in;
+    }
 
 .footer-nav a:hover {
     opacity: 100%;
@@ -402,6 +406,7 @@ footer ul li {
 
 .social-media-links svg {
   color: #FBFCFE; /* default color */
+  transition: color 0.2s ease-in;
   margin: 0px;
 }
 
@@ -530,6 +535,7 @@ h1 {
     margin: 24px 0;
     border: 1px solid #36536B;
     cursor: pointer;
+    transition: color 0.2s ease-in, background-color 0.25s ease-in;
 }
 
 .access-btn:hover {
@@ -741,6 +747,7 @@ h1 {
     cursor: pointer;
     letter-spacing: -0.12x;
     border: 1px solid #36536B;
+    transition: color 0.2s ease-in, background-color 0.25s ease-in;
 }
 
 
@@ -820,6 +827,7 @@ h1 {
         color: #36536B;
         opacity: 70%;
         font-weight: bold;
+        transition: opacity 0.2s ease-in;
       }    
 }
 
@@ -833,13 +841,14 @@ h1 {
         display: block;
         margin-left: auto;
         width: fit-content;
-         background-color: #BA4270;
+        background-color: #BA4270;
         color: #FBFCFE;
         border: none;
         border-radius: 24px;
         padding: 16px 24.5px 14px 26.5px;
         cursor: pointer;
         font-weight: bold;
+        transition: background-color 0.25s ease-in;
     }
 }
 
