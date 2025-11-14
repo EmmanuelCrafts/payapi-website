@@ -352,9 +352,11 @@ footer {
 
 }
 
+
 footer ul{
       list-style: none;
 }
+
 .footer-section {
     display: flex;
     flex-direction: column;
@@ -381,6 +383,10 @@ footer svg {
     opacity: 70%;
     gap: 31px;
     color: #FBFCFE;
+}
+
+.footer-nav a:hover {
+    opacity: 100%;
 }
 
 footer ul li {
@@ -788,6 +794,7 @@ h1 {
         left: -15vw;
         width: 130vw;
         height: 130vw;
+        z-index: 0;
     }
 }
 
@@ -796,6 +803,8 @@ h1 {
 @media (min-width: 768px) {
     .header-nav {
         gap: 64px;
+        position: relative;
+        z-index: 1;
     }
 }
 @media (min-width: 768px) {
@@ -815,8 +824,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-      .nav-list a:hover ,
-      footer a:hover {
+      .nav-list a:hover {
         opacity: 100%;
       }    
 }
@@ -853,13 +861,14 @@ h1 {
     .hero-image{
         width: 20%;
         margin: 48px auto;
+        position: relative;
+        z-index: 1;
     }
 }
 
 @media (min-width: 768px) {
     .hero-content h1 {
         width: 80%;
-
     }
 }
 
@@ -1709,6 +1718,13 @@ h1 {
         left: -65%;
     }
 }
+
+@media (min-width: 1024px) {
+       .about-intro picture {
+        position: relative;
+        z-index: 1;
+    }
+}  
 
 @media (min-width: 1024px) {
        .about-heading{
