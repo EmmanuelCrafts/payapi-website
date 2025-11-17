@@ -32,6 +32,7 @@ h2 ,h1 {
     text-align: center;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -96,6 +97,8 @@ h1, h2, h3, h4, h5, h6 {
 .hero-image {
     margin: 32px auto;
     width: 31%;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-content {
@@ -870,8 +873,6 @@ h1 {
     .hero-image{
         width: 20%;
         margin: 48px auto;
-        position: relative;
-        z-index: 1;
     }
 }
 
@@ -1533,6 +1534,8 @@ h1 {
         width: 40vw;
         max-height: 500px;
         margin: 0;
+        position: relative;
+        z-index: 1;
     }
 }
 
