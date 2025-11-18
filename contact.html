@@ -12,13 +12,20 @@
         <div class="page-header-mask"></div>
         <nav class="header-nav page-nav">
            <a href="index.html"><img src="assets/shared/desktop/logo.svg" alt="Logo" class="logo"></a>
-            <img src="assets/shared/mobile/menu.svg" alt="Menu icon" class="menu-icon">
-            <ul class="nav-list">
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <button class=" nav-btn">Schedule a Demo</button>
+            <img src="assets/shared/mobile/menu.svg" alt="Menu icon" id="menu-btn" class="menu-icon">
+
+            <div id="menu" class="nav-menu">
+                <img src="assets/shared/mobile/close.svg" alt="close icon" id="close-btn" class="close-icon">
+                <div class="menu-break"></div>
+                <ul class="nav-list">
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+               <div class="demo">
+                  <button class=" nav-btn">Schedule a Demo</button>
+               </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -124,5 +131,6 @@
         </ul>
       </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

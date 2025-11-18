@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu {
     display: none;
 }
+
 .menu-hidden {
     position: fixed;
     display: block;
@@ -97,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     width: 80vw;
     height: 100dvh;
-
     background-color: #1B262F;
 }
 
