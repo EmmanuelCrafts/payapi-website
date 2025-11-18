@@ -73,16 +73,13 @@ h1, h2, h3, h4, h5, h6 {
 /* navbar styling */
 .header-nav {
     display: flex;
-    align-items: center;
-    width: 90%;
-    height: 38px;
     margin: 0px auto;
 }
-
+/* 
  .nav-list,
  .nav-btn {
        display: none;
-    }
+    } */
 
 
 .menu-icon {
@@ -92,6 +89,65 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto;
 }
 
+/* responsive mobile navbar */
+.menu-hidden {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 100dvh;
+    background-color: #1B262F;
+}
+
+.menu-break {
+    width: 80%;
+    border-bottom: 1px solid #FBFCFE;
+    margin: 0 auto;
+    opacity: 15%;
+    margin-top: 24px;
+}
+
+.close-icon {
+    margin: 48px 24px 0px auto;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu-hidden ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    margin-top: 43px;
+}
+
+.menu-hidden ul a {
+    color: #FBFCFE;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 70%;
+    transition: opacity 0.2s ease-in;
+}
+
+.menu-hidden .demo {
+    width: 80%;
+    margin: 0 auto;
+}
+ .menu-hidden .nav-btn {
+        margin-top: 32px;
+        width: 100%;
+        background-color: #BA4270;
+        color: #FBFCFE;
+        border: none;
+        border-radius: 24px;
+        padding: 16px 24.5px 14px 26.5px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.25s ease-in;
+    }
 /* hero section styling */
 
 .hero-image {
@@ -839,21 +895,7 @@ h1 {
         opacity: 100%;
       }    
 }
-@media (min-width: 768px) {
-    .nav-btn {
-        display: block;
-        margin-left: auto;
-        width: fit-content;
-        background-color: #BA4270;
-        color: #FBFCFE;
-        border: none;
-        border-radius: 24px;
-        padding: 16px 24.5px 14px 26.5px;
-        cursor: pointer;
-        font-weight: bold;
-        transition: background-color 0.25s ease-in;
-    }
-}
+
 
 @media (min-width: 768px) {
     .menu-icon {
