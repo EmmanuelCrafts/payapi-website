@@ -74,13 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 .header-nav {
     display: flex;
     margin: 0px auto;
+    width: 90%;
+    align-items: center;
 }
-/* 
- .nav-list,
- .nav-btn {
-       display: none;
-    } */
-
 
 .menu-icon {
     cursor: pointer;
@@ -90,15 +86,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* responsive mobile navbar */
+.nav-menu {
+    display: none;
+}
 .menu-hidden {
-    position: absolute;
+    position: fixed;
+    display: block;
     z-index: 3;
     top: 0;
     right: 0;
     width: 80vw;
     height: 100dvh;
+
     background-color: #1B262F;
 }
+
+
 
 .menu-break {
     width: 80%;
