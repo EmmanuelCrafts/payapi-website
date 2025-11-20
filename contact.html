@@ -42,30 +42,35 @@
         <h1 class="contact-title">Submit a help request and we'll get in touch shortly.</h1>
       </div>
        <div class="contact-container">
-        <form action="" class="form-container">
+        <form action="" id="contact-form" class="form-container">
             <div class="form-input">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name">
+              <label for="fullName">Name</label>
+              <input type="text" id="fullName" name="fullName" >
+              <p id="name-error" class="error-msg"></p>
             </div>
 
             <div class="form-input">
               <label for="email">Email address</label>
-              <input type="email" id="email" name="email">
+              <input type="email" id="email" name="email"  >
+              <p id="email-error" class="error-msg"></p>
             </div>
 
             <div class="form-input">
               <label for="companyName">Company name</label>
-              <input type="text" name="companyName" id="companyName">
+              <input type="text" name="companyName" id="companyName" >
+              <p id="companyName-error" class="error-msg"></p>
             </div>
 
             <div class="form-input">
               <label for="title">Title</label>
               <input type="text" name="title" id="title">
+              <p id="title-error" class="error-msg"></p>
             </div>
 
             <div class="form-input message">
               <label  for="message">Message</label>
               <input type="text" name="message" id="message">
+              <p id="message-error" class="error-msg"></p>
             </div>
 
             <div class="checkbox">

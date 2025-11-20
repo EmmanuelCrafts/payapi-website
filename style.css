@@ -735,22 +735,28 @@ h1 {
 
 .form-container input{
     border: none;
-    border-bottom: 1px solid #36536B;
+    border-bottom: 1px solid #36536B80;
     background-color: transparent;
-    opacity: 50%;
     width: 100%;
 }
 
 .form-input input:focus {
     outline: none;
-    border-bottom: 1px solid #ff0000;
+    border-bottom: 1px solid #36536BFF;
 }
+
 .form-input label{
     color: #36536B;
     line-height: 25px;
     letter-spacing: -0.12px;
     padding-left: 20px;
     opacity: 50%;
+}
+
+.error-msg {
+    color: #ff000080;
+    padding-left: 20px;
+    margin-top: 8px;
 }
 
 .message input {
@@ -923,6 +929,10 @@ h1 {
         cursor: pointer;
         font-weight: bold;
         transition: background-color 0.25s ease-in;
+    }
+
+    .demo-nav-btn:hover {
+        background-color: #da6d97;
     }
 }
 /* hero-section styling */
