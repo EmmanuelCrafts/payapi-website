@@ -46,7 +46,7 @@ form.addEventListener('submit', (e) => {
         emailError.textContent = "This field can't be empty";
     } 
     
-      else if (emailValue.test(/^[^\s@]+@[^\s@]+\.[^\s@]+$/) === false) {
+      else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
         emailError.textContent = 'Please enter a valid email address.';
     } 
       else {
