@@ -65,6 +65,28 @@ const validateEmail = (input, errorElement) => {
     return true;
 }
 
+// blur event listeners for real-time validation
+fullName.addEventListener('blur', () => {
+    validateInput(fullName, nameError, 3, 'name must be at least 3 characters long.');
+});
+
+companyName.addEventListener('blur', () => {
+    validateInput(companyName, companyNameError, 3, 'name must be at least 3 characters long.');
+});
+
+title.addEventListener('blur', () => {
+    validateInput(title, titleError, 5, 'name must be at least 5 characters long.');
+});
+
+message.addEventListener('blur', () => {
+    validateInput(message, messageError, 10, 'name must be at least 10 characters long.');
+});
+
+email.addEventListener('blur', () => {
+    validateEmail(email, emailError);
+});
+
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     
