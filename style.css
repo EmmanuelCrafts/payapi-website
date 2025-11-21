@@ -756,6 +756,11 @@ h1 {
     line-height: 25px;
     letter-spacing: -0.12px;
     padding-left: 20px;
+    transition: opacity 0.2s ease-in;
+}
+
+.form-input  .hidden{
+    opacity: 0;
 }
 
  .form-input.error label{

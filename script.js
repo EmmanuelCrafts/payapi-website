@@ -21,6 +21,23 @@ const companyNameError = document.getElementById('companyName-error');
 const titleError = document.getElementById('title-error');
 const messageError = document.getElementById('message-error');
 
+// hide label on focus
+const inputs = [fullName, email, companyName, title, message];
+
+inputs.forEach(input => {
+    const label = input.previousElementSibling;
+
+    input.addEventListener('focus', () => {
+        label.classList.add('hidden');
+    });
+
+    input.addEventListener('blur', () => {
+        if (input.value.trim() === '') {
+            label.classList.remove('hidden');
+        }
+    });
+});
+
 // helper function 
 const validateInput = (input, errorElement, min , text) => {
     const value = input.value.trim();
