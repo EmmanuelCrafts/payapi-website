@@ -735,6 +735,7 @@ h1 {
 
 .form-input input{
     border: none;
+    color: #36536BFF;
     border-bottom: 1px solid #36536B80;
     background-color: transparent;
     width: 100%;
@@ -743,7 +744,7 @@ h1 {
 
 .form-input input:focus {
     outline: none;
-    border-bottom: 1px solid #36536BFF;
+    border-bottom: 1px solid #36536B;
     padding-bottom: 16px;
 }
 
