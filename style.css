@@ -1295,16 +1295,7 @@ h1 {
 
 }
 
-
-
-
-
-
-
-
-
-/* laptop style */
-/* header style */
+/* LAPTOP(1024px) STYLES */
 
 @media (min-width: 1024px) {
       .header-mask{
@@ -1313,10 +1304,8 @@ h1 {
         width: 780px;
         height: 780px;
     }
-} 
 
 /* hero styling */
-@media (min-width: 1024px) {
       .hero {
         display: flex;
         flex-direction: row-reverse;
@@ -1326,58 +1315,45 @@ h1 {
         gap: 206px;
         margin: 74px auto;
     }
-}
 
 
-@media (min-width: 1024px) {
       .hero-image{
         width: min(25vw,263px);
         margin: 0;
     }
-}
 
-@media (min-width: 1024px) {
       .hero-content {
         width: 50%;
         margin: 0px;
         top: 0px;
         max-width: 547px;
     }
-}
 
 
-@media (min-width: 1024px) {
-      .hero-content h1{
+      .hero-content h1 {
         font-size: 72px;
         line-height: 72px;
         letter-spacing: -0.55px;
         text-align: left;
         width: 100%;
     }
-}
-@media (min-width: 1024px) {
-      .hero-content form{
+
+    .hero-content form {
         width: 90%;
         margin: 0px;
     }
-}
 
-@media (min-width: 1024px) {
-      .hero-content p{
+      .hero-content p {
         width: fit-content;
         padding-left: 27px;
     }
     
-}
-
 /* partners styling */
-@media (min-width: 1024px) {
       .partners {
         padding: 100px 0;
     }
-}
-@media (min-width: 1024px) {
-      .partners-content{
+
+    .partners-content {
         display: flex;
         width: 90%;
         justify-content: space-between;
@@ -1385,49 +1361,36 @@ h1 {
         flex-direction: row-reverse;
         margin: 0 auto;
     }
-}
 
-@media (min-width: 1024px) {
       .partners-mask {
         top: -25vw;
         left: -35vw;
         width: 780px;
         height: 780px;
     }
-}
 
-@media (min-width: 1024px) {
       .info-container {
         width: min(40%, 445px);
     }
-}
 
-
-@media (min-width: 1024px) {
       .info-container h2,
       .info-container p{
         margin: 0;
         text-align: left;
         width: 100%;
     }
-}
 
 
-@media (min-width: 1024px) {
       .info-container h2 {
         margin-bottom: 24px;
     }
-}
 
 
-@media (min-width: 1024px) {
       .info-container button{
         margin-left: 0;
         margin-right: 0;
     }
-}
 
-@media (min-width: 1024px) {
       .partners-logos {
         width: 60%;
         max-width: 536px;
@@ -1435,65 +1398,47 @@ h1 {
         column-gap: 60px;
         margin: 0px;
     }
-}
 
 
 /* api implementation section */
-@media (min-width: 1024px) {
-      .api-implementation {
+    .api-implementation {
         display: flex;
         width: min(90%, 1051px);
         gap: 125px;
         align-items: center;
         margin: 150px auto 0px auto;
     }
-}
 
 
-@media (min-width: 1024px) {
-      .api-implementation img{
+    .api-implementation img {
         width: min(40vw, 445px);
         margin: 0;
     }
-}
 
 
-@media (min-width: 1024px) {
-      .api-implementation-content {
+    .api-implementation-content {
         top: 0;
         margin: 0;
         max-width: 445px;
     }
-}
 
-
-
-
-@media (min-width: 1024px) {
       .api-implementation p,
       .api-implementation h2{
         text-align: left;
     }
-}
 
 
 
 
 /* simple UI & UX section styling */
-@media (min-width: 1024px) {
-       .ui-container {
+    .ui-container {
         width: 100%;
         margin-top: 150px;
         margin-bottom: 0;
         overflow-x: clip;
     }
-}
 
-
-
-
-@media (min-width: 1024px) {
-       .ui {
+    .ui {
         width: 90%;
         display: flex;
         flex-direction: row-reverse;
@@ -1502,10 +1447,8 @@ h1 {
         position: relative;
         margin: 0 auto;
     }
-}
 
-@media (min-width: 1024px) {
-      .ui-mask {
+    .ui-mask {
         display: block;
         position: absolute;
         width: 780px;
@@ -1516,67 +1459,54 @@ h1 {
         pointer-events: none;
         left: 75vw;
     }
-}
-@media (min-width: 1024px) {
-       .ui-image img {
+
+    .ui-image img {
         width: 40vw;
         max-height: 500px;
         margin: 0;
         position: relative;
         z-index: 1;
     }
-}
 
-@media (min-width: 1024px) {
-       .ui-content{
+    .ui-content {
         max-width: 445px;
     }
-}
 
-@media (min-width: 1024px) {
-       .ui-content h2,
-       .ui-content p {
+    .ui-content h2,
+    .ui-content p {
         text-align: left;
     }
-}
 
 /* offers container styling */
-@media (min-width: 1024px) {
-       .offers-container {
+    .offers-container {
         margin-top: 150px;
 
     }
-}
 
-@media (min-width: 1024px) {
-       .offers-cards img{
+    .offers-cards img{
         width: min(35%, 106px);
     }
-}
 
 /* start container styling */
-@media (min-width: 1024px) {
-       .start-container {
+    .start-container {
          display: flex;
          align-items: center;
          justify-content: space-between;
     }
-}
 
 
-@media (min-width: 1024px) {
-       .start-container form{
+    .start-container form{
         max-width: 445px;
         margin: 0;
     }
-}
 
 /* footer styling */
-@media (min-width: 1024px) {
        .footer-mask {
         left: 72%;
     }
-}
+
+} 
+
 
        /* homepage styling for  desktops 1280px */
 
@@ -1613,7 +1543,6 @@ h1 {
 }
 
 /* simple ui section styling */
-
 @media (min-width: 1280px) {
        .ui-container { 
         width: 100%;
