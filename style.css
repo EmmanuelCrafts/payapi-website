@@ -883,58 +883,49 @@ h1 {
 }
 
 /* tablets */
-@media (min-width:768px) {
-    .header-mask {
+/* navbar styling */
+
+
+@media (min-width: 768px) {
+
+     .header-mask {
         top: -95vw;
         left: -15vw;
         width: 130vw;
         height: 130vw;
         z-index: 0;
     }
-}
 
-/* navbar styling */
-
-
-@media (min-width: 768px) {
     .header-nav {
         gap: 64px;
         position: relative;
         z-index: 1;
     }
-}
-@media (min-width: 768px) {
-    .nav-links {
+
+     .nav-links {
         list-style: none;
         display: flex;
         gap: 40px;
     }
-}
 
-@media (min-width: 768px) {
-      .nav-links a {
+    .nav-links a {
         color: #36536B;
         opacity: 70%;
         font-weight: bold;
         transition: opacity 0.2s ease-in;
-      }    
-}
+    }    
 
-@media (min-width: 768px) {
-      .nav-links a:hover {
+
+    .nav-links a:hover {
         opacity: 100%;
-      }    
-}
+    }    
 
 
-@media (min-width: 768px) {
-    .menu-icon {
+     .menu-icon {
         display: none;
     }
-}
 
-@media (min-width: 768px) {
-    .demo-nav-btn {
+     .demo-nav-btn {
         display: block;
         margin-left: auto;
         background-color: #BA4270;
@@ -947,33 +938,27 @@ h1 {
         transition: background-color 0.25s ease-in;
     }
 
+
     .demo-nav-btn:hover {
         background-color: #da6d97;
     }
-}
-/* hero-section styling */
 
-@media (min-width: 768px) {
-    .hero-content{
+
+    /* hero section styling */
+     .hero-content{
        width: 80%;
     }
-}
 
-@media (min-width: 768px) {
     .hero-image{
         width: 20%;
         margin: 48px auto;
     }
-}
 
-@media (min-width: 768px) {
     .hero-content h1 {
         width: 80%;
     }
-}
 
 
-@media (min-width: 768px) {
     .hero-content form ,
     .start-container form{
        display: flex;
@@ -981,128 +966,100 @@ h1 {
        position: relative;
        width: 70%;
        margin: 0 auto;
-       
     }
-}
 
-@media (min-width: 768px) {
     .hero-content input,
     .start-container input{
           width: 100%;
     }
-}
-@media (min-width: 768px) {
-   .hero-content .demo-btn,
-   .start-container .demo-btn {
+
+    .hero-content .demo-btn,
+    .start-container .demo-btn {
         width: fit-content;
         position: absolute;
         padding: 16px 24.5px 14px 26.5px;
         right: 0%;
         top: 0.1px;
     }
-}
+
 
 /* partners section */
-@media (min-width: 768px) {
     .partners {
         width: 100%;
     }
-}
 
-@media (min-width: 768px) {
     .partners-mask{
       width: 100vw;
       height: 100vw;
       left: 0vw;
       top: -70vw;
     }
-}
 
-@media (min-width: 768px) {
- .partners-logos {
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: repeat(2, 1fr);
-     row-gap: 39px;
-     column-gap: 60px;
- }
-}
+   .partners-logos {
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       row-gap: 39px;
+       column-gap: 60px;
+    }
 
-@media (min-width: 768px) {
     .partners h2{
         margin-top: 64px;
         font-size: 48px;
         line-height: 56px;
         letter-spacing: -0.37px;
     }
-}
 
-@media (min-width: 768px) {
     .partners p{
         width:60%;
     }
-}
 
 
 /* api implementation section */
-@media (min-width: 768px) {
     .api-implementation img{
      width: 50%;
      margin-top: 100px;
     }
     
-}
-@media (min-width: 768px) {
     .api-implementation-content{
      width: 70%;
      margin: 0 auto;
     }
     
-}
-@media (min-width: 768px) {
     .api-implementation h2{
        font-size: 48px;
         line-height: 56px;
         letter-spacing: -0.37px;
     }
-}
 
 
-@media (min-width: 768px) {
     .api-implementation p{
       width: 100%;
     }
-}
+
+
 
 /* simple UI & ux section */
-@media (min-width: 768px) {
     .ui-container{
       margin: 100px 0;
     }
-}
-@media (min-width: 768px) {
+
     .ui{
       width: 70%;
       margin: 0px auto;
     }
-}
 
-@media (min-width: 768px) {
     .ui-content h2{
         font-size: 48px;
         line-height: 56px;
         letter-spacing: -0.37px;
     }
-}
 
-@media (min-width: 768px) {
     .ui-content p{
       width: 100%;
     }
-}
 
 /* offers section */
 
-@media (min-width: 768px) {
   .offers-container {
     flex-direction: row;
     align-items: flex-start;
@@ -1111,123 +1068,93 @@ h1 {
     margin: 0 auto;
     margin-top: 100px;
   }    
-}
 
 
-@media (min-width: 768px) {
   .offers-cards {
     width: 32%;
   }    
-}
 
 
-@media (min-width: 768px) {
-  .offers-cards img{
+  .offers-cards img {
     width: 40%;
     height: 40%;
-  }    
-}
+  }  
 
 /* start container */
 
-@media (min-width: 768px) {
-    .start-container{
+    .start-container {
         margin-top: 100px;
     }
-}
-@media (min-width: 768px) {
-    .start-container h2{
+
+    .start-container h2 {
         font-size: 48px;
         line-height: 56px;
         letter-spacing: -0.37px;
     }
-}
 
 /* footer styling */
-
-@media (min-width: 768px) {
     footer {
         display: flex;
         margin-top: 100px;
         padding: 0;
         height: 100px;
     }
-}
 
 
-@media (min-width: 768px) {
-    .footer-section{
+    .footer-section {
         width: 90%;
         flex-direction: row;
         gap: 65px;
         margin: 0 auto;
         align-items: center;
     }
-}
 
 
-@media (min-width: 768px) {
     .footer-mask{
        top: -136px;
        left: 378px;
     }
-}
 
-@media (min-width: 768px) {
-    footer svg{
+    footer svg {
         margin: 0px;
     }
-}
 
-@media (min-width: 768px) {
-    .footer-nav ul{
+    .footer-nav ul {
         flex-direction: row;
         gap: 40px;   
     }
-}
 
-@media (min-width: 768px) {
-    .footer-nav{
+    .footer-nav {
         margin: 0px;
         height: fit-content;
         width: fit-content;
     }
-}
 
 
-@media (min-width: 768px) {
-    .social-media-links{
+    .social-media-links {
         margin: 0px;
         margin-left: auto;
     }
-}
-
- /* pricing page */
 
 
-@media (min-width: 768px) {
+/* PRICING PAGE */
     .page-header{
       margin-bottom: 75px;
     }
-}
 
-@media (min-width: 768px) {
     .page-header-mask{
        top: -60vw;
        left: 65vw;
     }
-}
 
-@media (min-width: 768px) {
     h1 {
        font-size: 48px;
        letter-spacing: -0.37px;
        line-height: 56px;
        margin-top: 0px;
     }
-}
+
 /* pricing section */
-@media (min-width: 768px) {
     .pricing-container{
         display: flex;
         gap: 10px;
@@ -1235,43 +1162,34 @@ h1 {
         margin-top: 69px;
         width: 90%;
     }
-}
 
 
-
-@media (min-width: 768px) {
      .subscription {
       margin: 0px;
     }
-}
-@media (min-width: 768px) {
+
     .pricing{
      width: min(40%, 350px);
      margin: 0px;
     }
-}
 
-@media (min-width: 768px) {
     .amount{
         font-size: 48px;
         letter-spacing: -0.37px;
     }
-}
+
 
 /*ABOUT PAGE */
-@media (min-width: 768px) {
     .about-heading{
-            font-size: 48px;
-            line-height: 56px;
-            letter-spacing: -0.37px;      
-            margin-top: 0px;      
-            width: min(70%, 730px);
-            margin-bottom: 54px;
-        }
-}
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;      
+        margin-top: 0px;      
+        width: min(70%, 730px);
+        margin-bottom: 54px;
+    }
 
 
-@media (min-width: 768px) {
     .about-intro h2{
         font-size: 32px;
         letter-spacing: -0.25px;
@@ -1279,10 +1197,8 @@ h1 {
         column-gap: 64px;
         line-height: 40px;
     }
-}
 
 
-@media (min-width: 768px) {
     .vision,
     .business,
     .culture,
@@ -1292,9 +1208,7 @@ h1 {
       justify-content: space-between;
       margin: 0 auto;
     }
-}
 
-@media (min-width: 768px) {
     .about-intro p,
     .culture p,
     .people p{
@@ -1302,7 +1216,6 @@ h1 {
         margin: 0;
         text-align: left;
     }
-}
 
 
 @media (min-width: 768px) {
@@ -1311,35 +1224,27 @@ h1 {
     }
 }
 
-@media (min-width: 768px) {
     .about-intro img {
      margin-top: 92px;
     }
-}
+
 
 /* capacity-section */
-@media (min-width: 768px) {
      .capacity {
         width: 90%;
     }
-}
 
-@media (min-width: 768px) {
       .stats{
         display: flex;
         justify-content: space-between;
     }
-}
 
 /* line break styling */
-@media (min-width: 768px) {
      .capacity .line-break{
         display: none;
     }
-}
 
 
-@media (min-width: 768px) {
       .break{
         margin: 32px 0;
         border-bottom: 1px solid #36536B;
@@ -1347,63 +1252,56 @@ h1 {
         width: 100%;
         display: block;
     }
-}
 
 
-@media (min-width: 768px) {
       .transactions,
       .no-members,
       .us-offices {
          width: 30%;
     }
-}
 
 
-
-
-
-@media (min-width: 768px) {
       .culture {
         margin: 32px auto 64px auto;
     }
-}
 
-         /* CONTACT PAGE */
 
-@media (min-width: 768px) {
+ /* CONTACT PAGE */
+
       .contact-title{
         padding: 0;
         max-width: 573px;
     }
-}
 
 
-@media (min-width: 768px) {
       .form-container{
         width: 60%;
     }
-}
 
 /* partners section */
-@media (min-width: 768px) {
       .partners-container{
         width: 80%;
     }
-}
 
-@media (min-width: 768px) {
       .partners-container img{
         width: 80%;
     }
-}
 
-@media (min-width: 768px) {
       .partners-container h2{
         width: 70%;
         margin: 0 auto;
         padding-bottom: 40px;
     }
+
 }
+
+
+
+
+
+
+
+
 
 /* laptop style */
 /* header style */
