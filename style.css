@@ -1501,26 +1501,149 @@ h1 {
     }
 
 /* footer styling */
-       .footer-mask {
+    .footer-mask {
         left: 72%;
     }
 
+     /* LAPTOP STYLES FOR  PRICING PAGE */
+    .page-header {
+        margin-bottom: 82px;
+    }
+
+    .page-header-mask {
+        top: -35vw;
+        left: 60vw;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 56px;
+        letter-spacing: -0.43px;
+        line-height: 56px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .pricing-container {
+        gap: 30px;
+        margin-top: 72px;
+    }
+
+    .pricing {
+        align-items: flex-start;
+    }
+
+    .offer-plan {
+        text-align: left;
+    }
+
+    .amount {
+          font-size: 56px;
+          line-height: 72px;
+          letter-spacing: -0.37px;
+    }
+
+     .subscription {
+       font-size: 32px;
+       line-height: 40px;
+       letter-spacing: -0.25px;
+   }
+
+
+/* ABOUT PAGE */
+       .heading-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+       .about-mask {
+        display: block;
+        top: 40%;
+        left: -65%;
+    }
+
+       .about-intro picture {
+        position: relative;
+        z-index: 1;
+    }
+
+       .about-heading{
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.43px;  
+        margin: 0;
+        margin-bottom: 51px;
+    }
+
+
+  /* CONTACT PAGE  */
+       .contact-heading {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+       .contact-title {
+        margin: 0;
+        max-width: 730px;
+    }
+
+       .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 48px;
+        width: 90%;
+    }
+
+
+       .form-container {
+        width: min(45%,445px);
+        margin: 0;
+    }
+
+       .partners-container {
+        width: min(45%, 541px);
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+       .partners-container h2{
+        max-width: 445px;
+        text-align: left;
+        margin: 0;
+    }
+
+       .partners-container .partners-logos ,
+       .partners-container h2{
+          width: 100%;
+    }
+
+      .partners-container img{
+        width: 100%;
+    }
 } 
 
 
-       /* homepage styling for  desktops 1280px */
 
+
+
+/*LARGER SCREENS STYLE (above 1280px)*/
 @media (min-width: 1280px) {
+     /* Homepage */
+
        .header-mask {
           top: -15vw;
           left: 55vw;
           width: 780px;
           height:780px;
     }
-}
 
 
-@media (min-width: 1280px) {
        .header-nav,
        .hero,
        .partners-content,
@@ -1531,229 +1654,55 @@ h1 {
        .footer-section {
         width: min(80%, 1110px);
     }
-}
 
-/* partners mask */
-@media (min-width: 1280px) {
       .partners-mask {
         top: -27vw;
         left: -15vw;
     }
 
-}
 
 /* simple ui section styling */
-@media (min-width: 1280px) {
        .ui-container { 
         width: 100%;
     }
-}
 
-@media (min-width: 1280px) {
        .ui {
         width: 80%;
     }
-}
 
-@media (min-width: 1280px) {
        .ui-mask {
         left: 65vw;
     }
-}
 
- /* LAPTOP STYLES FOR  PRICING PAGE */
-@media (min-width: 1024px) {
-       .page-header {
-        margin-bottom: 82px;
 
-    }
-}
 
-@media (min-width: 1024px) {
-       .page-header-mask {
-        top: -35vw;
-        left: 60vw;
-        width: 50vw;
-        height: 50vw;
-    }
-}
-
-@media (min-width: 1024px) {
-       h1 {
-        text-align: left;
-        font-size: 56px;
-        letter-spacing: -0.43px;
-        line-height: 56px;
-        margin: 0 auto;
-        width: 90%;
-    }
-}
-
-@media (min-width: 1024px) {
-       .pricing-container {
-        gap: 30px;
-        margin-top: 72px;
-    }
-}
-@media (min-width: 1024px) {
-       .pricing {
-        align-items: flex-start;
-    }
-}
-
-@media (min-width: 1024px) {
-       .offer-plan {
-        text-align: left;
-    }
-}
-
-@media (min-width: 1024px) {
-       .amount {
-          font-size: 56px;
-          line-height: 72px;
-          letter-spacing: -0.37px;
-    }
-}
-
-@media (min-width: 1024px) {
-     .subscription {
-       font-size: 32px;
-       line-height: 40px;
-       letter-spacing: -0.25px;
-   }
-}
-
-/* for large dektops */
-@media (min-width: 1280px) {
+/* PRICING PAGE*/
        .pricing-container,
        h1 {
           width: min(80%, 1110px);
     }
-}
 
 
-/* ABOUT PAGE */
-@media (min-width: 1024px) {
-       .heading-container {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
 
-@media (min-width: 1024px) {
-       .about-mask {
-        display: block;
-        top: 40%;
-        left: -65%;
-    }
-}
-
-@media (min-width: 1024px) {
-       .about-intro picture {
-        position: relative;
-        z-index: 1;
-    }
-}  
-
-@media (min-width: 1024px) {
-       .about-heading{
-        font-size: 56px;
-        line-height: 56px;
-        letter-spacing: -0.43px;  
-        margin: 0;
-        margin-bottom: 51px;
-    }
-}
-
-/* about page styles for larger desktops */
-@media (min-width: 1280px) {
+/* ABOUT PAGE*/
        .heading-container,
        .capacity {
          width: min(80%, 1110px);
 
     }
-}
 
 
-@media (min-width: 1280px) {
        .about-mask {
         top: 40%;
         left: -40%;
     }
-}
-
-
-  /* CONTACT PAGE  */
-@media (min-width: 1024px) {
-       .contact-heading {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 1024px) {
-       .contact-title {
-        margin: 0;
-        max-width: 730px;
-    }
-}
-
-@media (min-width: 1024px) {
-       .contact-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0 auto;
-        margin-top: 48px;
-        width: 90%;
-    }
-}
-
-
-@media (min-width: 1024px) {
-       .form-container {
-        width: min(45%,445px);
-        margin: 0;
-    }
-}
-
-@media (min-width: 1024px) {
-       .partners-container {
-        width: min(45%, 541px);
-        padding: 0;
-        margin: 0;
-    }
-}
 
 
 
-@media (min-width: 1024px) {
-       .partners-container h2{
-        max-width: 445px;
-        text-align: left;
-        margin: 0;
-    }
-}
-
-@media (min-width: 1024px) {
-       .partners-container .partners-logos ,
-       .partners-container h2{
-          width: 100%;
-    }
-}
-
-@media (min-width: 1024px) {
-      .partners-container img{
-        width: 100%;
-    }
-}
-
-  /* larger Desktops */
-@media (min-width: 1280px) {
+  /* CONTAINER PAGE */
        .contact-heading,
        .contact-container { 
              width: min(80%, 1110px);
     }
 }
-
 
